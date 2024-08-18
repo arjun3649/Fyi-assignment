@@ -1,11 +1,11 @@
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { IRootState } from "../../../redux/store";
 
 const Navbar: React.FC = () => {
- const [isScrolling, setIsScrolling] = useState(false);
- const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const cartItems = useSelector((state: IRootState) => state.cart.cartItems);
 
   const totalItems = cartItems.reduce((total, item) => total + item.qty, 0);
@@ -27,9 +27,11 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-     <nav
+    <nav
       className={`sticky top-0 z-50 flex h-16 w-full items-center justify-between px-4 shadow-md shadow-blue-300 transition-all duration-300 md:w-2/3 ${
-        isScrolling || isScrolled ? "bg-white bg-opacity-40" : "bg-white bg-opacity-60"
+        isScrolling || isScrolled
+          ? "bg-white bg-opacity-40"
+          : "bg-white bg-opacity-60"
       }`}
       style={{
         backdropFilter: "blur(10px)", // Blur effect for glassmorphism
