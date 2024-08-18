@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
       style={{
         backdropFilter: "blur(10px)", // Blur effect for glassmorphism
         border: "1px solid rgba(255, 255, 255, 0.2)", // Subtle border for the glass effect
-        borderRadius: "10px", // Optional: rounded corners for a more polished look
+        borderRadius: "10px", 
       }}
     >
       <Link className="flex items-center" href="/">

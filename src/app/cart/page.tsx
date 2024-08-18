@@ -7,6 +7,7 @@ import CartTotal from "../components/CartTotal";
 import Navbar from "../components/Navbar";
 
 const Cart = () => {
+  // fetching cartItems from redux
   const cartItems = useSelector((state: IRootState) => state.cart.cartItems);
 
   return (
