@@ -7,7 +7,7 @@ const Banner = () => {
         src="https://pbs.twimg.com/media/FqOVJqtWcAckzai.jpg:large"
         fill={true}
         alt="Picture of the author"
-        className="w-full object-contain md:object-cover"
+        className="w-full object-contain md:object-cover "
       />
     </div>
   );

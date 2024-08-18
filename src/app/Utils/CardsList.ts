@@ -76,7 +76,7 @@ export const products: Product[] = [
     price: 499,
     brand: 'GameTech',
     category: 'Gaming',
-    img: "https://phantom-marca.unidadeditorial.es/849a2edd1f6d1655f2496d3dbb346fae/resize/414/f/jpg/assets/multimedia/imagenes/2023/12/11/17022938196238.jpg",
+    img: "https://5.imimg.com/data5/SELLER/Default/2023/8/338900660/MI/FV/IV/195687344/gaming-console.jpg",
     description: "Step into the future of gaming with the NextGen console. Featuring ray tracing, 4K gaming, and lightning-fast load times.",
     specs: {
       cpu: "Custom 8-core AMD Zen 2",
