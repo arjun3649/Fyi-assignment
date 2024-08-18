@@ -29,7 +29,7 @@ const Cards: React.FC<Props> = ({ product }) => {
   }
 
   return (
-    <div className="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-md shadow-blue-400 transition-transform duration-300 hover:scale-105">
+    <div className="flex h-full flex-col overflow-hidden rounded-lg bg-white shadow-md shadow-blue-400 transition-transform duration-300 md:hover:scale-105">
       {/* Link to the product detail page */}
       <Link
         href={`/detail/${product.slug}`}
